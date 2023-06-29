@@ -1,0 +1,16 @@
+{
+  "name": "reproduce-rspack-amulty-assets-chunk-emits-hmr-bug",
+  "private": true,
+  "scripts": {
+    "serve": "npx rspack serve --config vue.config.js",
+    "build": "npx rspack build --config vue.config.js"
+  },
+  "dependencies": {
+    "vue": "3.3.4",
+  },
+  "devDependencies": {
+    "@rspack/cli": "^0.2.4",
+    "@rspack/plugin-html": "^0.2.4",
+    "vue-loader": "^17.2.2"
+  },
+}
